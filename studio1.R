@@ -87,7 +87,7 @@ for (col in categorical_cols) {
   generate_pie_chart(col)
 }
 
-# Q8.3 Cross-tabulate the mush$class variable against each of the other variables. Which variable
+# Q.5 Cross-tabulate the mush$class variable against each of the other variables. Which variable
 # appears most strong associated with class?
 
 mush = read.csv("Mushroom.csv",header=T,stringsAsFactors=T)
@@ -145,7 +145,7 @@ for (var in categorical_vars) {
 
 ##################################################################################
 
-# Q9.1 Write a loop that computes the correlation coefficient between each of the wine attributes and
+# Q.6 Write a loop that computes the correlation coefficient between each of the wine attributes and
 # the wine quality variable. Your loop should display the information to the console in the form
 # Correlation between fixed.acidity and quality = -0.1136628
 # for each of the variables. (hint: you can use the names(wine)[i] to access the name of the i-th
